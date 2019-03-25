@@ -1,0 +1,482 @@
+@import "bourbon";
+@import'grd';
+@import'mixins';
+$t:'Tahoma';
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+input,
+span {
+    direction: rtl;
+}
+
+.button__olivia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 70px;
+    font: 20px $t;
+    background-color: rgba(121, 111, 58, 1);
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    padding: 0 15px;
+    &:hover {
+        color: #ffffff;
+        background-color: rgb(161, 149, 89);
+    }
+}
+
+.forms {
+    background-color: #ffffff;
+    max-width: 371px;
+    width: 100%;
+    min-height: 812px;
+    padding: 73px 24px 82px 24px;
+    @media only screen and (max-width: 992px) and (min-width: 601px) {
+        padding: 24px;
+    }
+    @media only screen and (max-width: 600px) and (min-width: 300px) {
+        padding: 24px;
+    }
+    h3 {
+        text-align: center;
+        font: 26px $t;
+        color: #000000;
+        margin: 39px auto 50px;
+        font-weight: 900;
+    }
+    .button__olivia {
+        margin-bottom: 37px;
+    }
+}
+
+header {
+    /* background: url(./src/img/splash-image-desktop.jpg) no-repeat top center; */
+    padding: 0;
+    @media only screen and (max-width: 992px) and (min-width: 601px) {
+        padding: 28px 0;
+    }
+    @media only screen and (max-width: 600px) and (min-width: 300px) {
+        padding: 20px 0;
+    }
+    .menu__top {
+        background-color: #1f1f1f;
+        height: 111px;
+        padding: 20px 0;
+        @media only screen and (max-width: 1200px) and (min-width: 993px) {}
+        @media only screen and (max-width: 992px) and (min-width: 601px) {}
+        @media only screen and (max-width: 600px) and (min-width: 300px) {}
+        @media only screen and (max-width: 440px) and (min-width: 300px) {
+            height: auto;
+            padding: 10px 0;
+        }
+        .logo {
+            max-width: 201px;
+            width: 100% !important;
+            height: auto;
+            @media only screen and (max-width: 992px) and (min-width: 601px) {
+                justify-content: space-between;
+            }
+            @media only screen and (max-width: 600px) and (min-width: 441px) {
+                justify-content: space-between;
+                max-width: 180px;
+            }
+            @media only screen and (max-width: 440px) and (min-width: 300px) {
+                max-width: 130px;
+            }
+            @media only screen and (max-width: 350px) and (min-width: 300px) {
+                max-width: 130px;
+            }
+        }
+        .button__olivia {
+            max-width: 203px;
+            height: 54px;
+            @media only screen and (max-width: 992px) and (min-width: 601px) {
+                justify-content: center;
+                margin: 8px 0 5px auto;
+                float: right;
+            }
+            @media only screen and (max-width: 600px) and (min-width: 441px) {
+                justify-content: center;
+                margin: 8px 0 5px auto;
+                float: right;
+            }
+            @media only screen and (max-width: 440px) {
+                justify-content: center;
+                margin: 8px 0 5px auto;
+                float: right;
+                max-width: 135px;
+                height: 40px;
+            }
+        }
+    }
+    h1 {
+        color: #ceb42b;
+        font: 42px $t;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.7em;
+        letter-spacing: .02em;
+        margin-bottom: 40px;
+        @media only screen and (max-width: 992px) and (min-width: 601px) {
+            font-size: 30px;
+        }
+        @media only screen and (max-width: 600px) and (min-width: 300px) {
+            font-size: 28px;
+        }
+    }
+    .slog {
+        color: #ffffff;
+        font: 30px $t;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.7em;
+    }
+    .forms {
+        margin-left: auto;
+        margin-right: 3px;
+        @media only screen and (max-width: 992px) and (min-width: 601px) {
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 600px) and (min-width: 300px) {
+            margin: 0 auto;
+        }
+        img {
+            margin: 0 auto;
+            position: relative;
+            display: inherit;
+        }
+    }
+}
+
+.box__slid {
+    padding: 50px 80px;
+    .block {
+        display: block;
+        text-align: right;
+        padding-right: 40px;
+        @media only screen and (max-width: 992px) and (min-width: 601px) {
+            text-align: center;
+        }
+        @media only screen and (max-width: 600px) and (min-width: 300px) {
+            text-align: center;
+        }
+        span {
+            width: 150px;
+            margin-right: 15px;
+            display: inline-block;
+            vertical-align: top;
+            color: #000000;
+            font: 24.36px $t;
+            font-weight: 400;
+            text-align: right;
+            letter-spacing: .035em;
+            line-height: 1.3em;
+        }
+        img {
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+}
+
+.box__contact {
+    text-align: center;
+    padding: 75px 15px 0 15px;
+    .block__user {
+        img {
+            display: inline-block;
+            width: 224px;
+            height: 224px;
+            border-radius: 50%;
+            margin: 0px auto 35px auto;
+        }
+        h3 {
+            color: #8c8456;
+            font: 22px $t;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 35px;
+            line-height: 1.7em;
+        }
+        .discript {
+            color: #000000;
+            font: 18px $t;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 15px;
+            line-height: 1.7em;
+        }
+        .info {
+            color: #8c8456;
+            font: 16px $t;
+            line-height: 1.7em;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+}
+
+.slick-dots {
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 55px;
+    li {
+        display: inline-block;
+        button {
+            border-radius: 50%;
+            background-color: #d7d7d7;
+            width: 15px;
+            height: 15px;
+            margin: 5px 8px;
+        }
+    }
+    .slick-active {
+        button {
+            background-color: #8c8456;
+        }
+    }
+}
+
+.button__margin {
+    margin-bottom: 85px;
+}
+
+footer {
+    background-color: #101012;
+    width: 100%;
+    min-height: 466px;
+    padding: 44px 0;
+    p {
+        color: #e2e2e2;
+        font: 16px $t;
+        font-weight: 400;
+        text-align: left;
+        line-height: 1.7em;
+    }
+}
+
+
+/************************************* slick-slider ***********************************/
+
+.slick-slider {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.slick-list:focus {
+    outline: 0
+}
+
+.slick-list.dragging {
+    cursor: pointer
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.slider-nav-thumbnails .slick-track {
+    width: 100%!important
+}
+
+.slider-nav-thumbnails .slick-slide {
+    width: 200px!important;
+    margin: 3px
+}
+
+.slick-track:before {
+    display: table;
+    content: ''
+}
+
+.slick-track:after {
+    display: table;
+    content: '';
+    clear: both
+}
+
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px
+}
+
+[dir=rtl] .slick-slide {
+    float: right
+}
+
+.slick-slide img {
+    display: block
+}
+
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-list .slick-track .slick-initialized .slick-slide {
+    display: block;
+    width: 200px!important;
+    margin: 3px!important
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+
+/************************************* END slick-slider ***********************************/
+
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 25px;
+    height: 40px;
+    margin-top: -20px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    z-index: 9;
+    &:focus,
+    &:hover {
+        outline: 0;
+        background: 0 0;
+    }
+}
+
+.slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 25px;
+    height: 40px;
+    margin-top: -20px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    z-index: 9;
+    &:focus,
+    &:hover {
+        outline: 0;
+        background: 0 0;
+    }
+}
+
+.slick-next {
+    &:focus,
+    &:hover {
+        outline: 0;
+        background: 0 0;
+    }
+}
+
+.slick-prev {
+    &:focus:before,
+    &:hover:before {
+        opacity: 0.5;
+    }
+    &.slick-disabled:before {
+        opacity: 1;
+    }
+}
+
+.slick-next {
+    &:focus:before,
+    &:hover:before {
+        opacity: 0.5;
+    }
+    &.slick-disabled:before {
+        opacity: 1;
+    }
+}
+
+.slick-prev.slick-disabled:before {
+    opacity: 1;
+}
+
+.slick-next:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    color: #000;
+    -webkit-transition: all .7s ease;
+    transition: all 0.7s ease;
+}
+
+.slick-prev {
+    left: 15px;
+}
+
+.slick-next {
+    right: 15px;
+}

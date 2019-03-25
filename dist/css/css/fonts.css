@@ -1,0 +1,46 @@
+@font-face {
+    font-family: HelveticaNeueLTStd-Th;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/HelveticaNeueLTStd-Th/HelveticaNeueLTStd-Th.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueLTStd-Th/HelveticaNeueLTStd-Th.woff) format("woff"), url(../fonts/HelveticaNeueLTStd-Th/HelveticaNeueLTStd-Th.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Md;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.woff) format("woff"), url(../fonts/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: HelveticaNeueLTStd-Lt;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.eot?#iefix) format("embedded-opentype"), url(../fonts/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.woff) format("woff"), url(../fonts/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: ionicons;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/ionicons/ionicons.eot?#iefix) format("embedded-opentype"), url(../fonts/ionicons/ionicons.woff) format("woff"), url(../fonts/ionicons/ionicons.ttf) format("truetype")
+}
+
+.popup-youtube:before{
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.popup-youtube:before {
+    content: "\f362";
+}

@@ -1,0 +1,22 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "First Gulp Project",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.4",
+    "gulp-clean-css": "^2.0.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-install": "^0.6.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.5.3",
+    "imagemin-pngquant": "^4.2.2",
+    "node-bourbon": "^4.2.3"
+  },
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  }
+}

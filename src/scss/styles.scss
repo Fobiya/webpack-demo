@@ -1,0 +1,703 @@
+        @import'grd';
+        @import'mixins';
+
+
+
+        $md:'HelveticaNeueLTStd-Md';
+        $th:'HelveticaNeueLTStd-Th';
+        $lt:'HelveticaNeueLTStd-Lt';
+        .button__yellow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       
+
+
+            border-radius: 10px;
+            background-color:  #e35115;
+
+          
+            height: 50px;
+
+            width: 100%;
+            max-width: 268px;
+            color: #ffffff;
+            font: 19.08px $th;
+            letter-spacing: 0.071em;
+            /* text-transform: uppercase; */
+            &:hover {
+                background-color:  #8d2d06;
+            }
+        }
+        
+        h2 {
+            color: #0e0e0e;
+            font: 28px $md;
+            text-transform: uppercase;
+        }
+        
+        [class*='section__'] {
+            .container {
+                max-width: 1255px;
+            }
+        }
+        
+        .rick {
+            color: #696969;
+            font: 18px $lt;
+            letter-spacing: .015em;
+        }
+        
+        header {
+            /* background: #000000 url(../images/banner.png) no-repeat top right; */
+            background-color:  #afafaf;
+        
+            height: 944px;
+            position: relative;
+
+            @media only screen and (max-width: 1700px) and (min-width: 300px) {
+                height: auto;
+                padding-bottom: 30px;
+            }
+  
+
+            .container {
+                max-width: 1820px;
+            }
+
+           
+            @media only screen and (max-width: 992px) and (min-width: 300px) {
+                text-align: center;
+                min-height: auto;
+                padding-bottom: 45px;
+               /* padding-top: 115px; */
+
+               padding-top: 20px;
+            }
+
+            .inset{
+                
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                
+                }
+            }
+
+            .left__box{
+                padding-left: 45px !important;
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                    padding-left: 0.75em !important;
+                }
+
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                    float: right !important;
+                }
+
+              
+                
+            }
+
+            .trend__line{
+                margin-top: 70px;
+
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                 display: none;
+                }
+              
+            }
+
+            .apple{
+
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                    float: left !important;
+                }
+               .apple-logo{
+                margin-top: 50px;
+                margin-left: 25px;
+
+                max-width: 533px;
+                width: 100%;
+                height: auto;
+                @media only screen and (max-width: 1200px) and (min-width: 993px) {
+                    max-width: 450px;
+                    position: absolute;
+                }
+
+                @media only screen and (max-width: 992px) and (min-width:300px) {
+                    margin-left: 0px;
+                    margin-top: 0px;
+
+                        max-width: 250px;
+                }
+
+              
+               }
+            }
+            .leng{
+                border-radius: 5px;
+                border: 2px solid #fff;
+                padding: 15px;
+                max-width: 134px;
+                width: 100%;
+                float: right;
+                right: 26px;
+                top: 23px;
+                position: absolute;
+                height: 43px;
+                @media only screen and (max-width: 992px) and (min-width:300px) {
+                 display: none;
+                }
+            }
+
+            .box__sale{
+
+                width: 100%;
+
+                
+                @media only screen and (max-width: 992px) and (min-width: 450px) {
+                  margin-top: 150px;
+                  text-align: left;
+                }
+
+                @media only screen and (max-width: 449px) and (min-width: 300px) {
+                    margin-top: 100px;
+                }
+
+                .h3{
+                    color: #FCFCFC;
+                    font: 40px $md; 
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    
+                    
+                }
+ 
+                .red{
+                    color:  #ed1f1f;
+                    font: 20px $lt;
+                    margin-top: 5px;
+                    
+                }
+
+                .box__wid{
+                    margin-top: 0;
+                    margin-bottom: 15px;
+                    color:  #484848;
+                    font: 18px $lt;
+                    line-height: 1.5em;
+                    max-width: 210px;
+
+                    @media only screen and (max-width: 1799px) and (min-width: 1201px) {
+                      width: 250px;
+                    }
+
+                    @media only screen and (max-width: 1200px) and (min-width: 993px) {
+                        width: 100%;
+                        max-width: 100%;
+                      }
+
+                      @media only screen and (max-width: 992px) and (min-width: 300px) {
+                        display: none;
+                       }
+                }
+               
+            }
+            .box__video{
+                background-color: rgba(0,0,0,.64);
+                width: 331px;
+                height: 120px;
+                right: 0px;
+                position: absolute;
+                margin-top: 162px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+
+                
+                @media only screen and (max-width: 1799px) and (min-width: 1370px) {
+                   margin-top: 20px;
+                  }
+
+                  
+                  @media only screen and (max-width: 1369px) and (min-width: 993px) {
+                    margin-top: 20px;
+                  }
+
+                  @media only screen and (max-width: 992px) and (min-width: 300px) {
+                    display: none
+                  }
+
+
+                p{
+                    margin: 20px 15px;
+                        color:  #fff;
+                    font: 16px $lt;
+                    line-height: 1.5em;
+                }
+
+                .popup-youtube{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                 
+                    img{
+                        margin: 8px;
+                    }
+                    &:hover{
+                        text-shadow: 0 0 5px #fff;
+
+                       
+                        &:before{
+                           
+                            color: #fff;
+                        
+                        
+                            
+                       
+                        }
+                    }
+
+                    &:before{
+                        position: absolute;
+                        color: #000;
+                        font-size: 30px;
+                    
+                        
+                   
+                    }
+                }
+
+                
+            }
+
+
+           
+
+            .right__box{
+
+                @media only screen and  (min-width: 1201px) {
+                    padding-top: 145px!important;
+                }
+
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                      
+                   background: #fff;
+                }
+              
+
+                .h1__{
+                    color:  #000000;
+                    font: 100px $md;
+                    
+                    text-transform: initial;
+                    font-weight: 900;
+                  
+                    padding-left: 55px;
+                    letter-spacing: .04em;
+
+                    @media only screen and (max-width: 1669px) and (min-width: 1201px) {
+                        font-size: 70px;
+                        margin-top: 50px;
+
+                        br{
+                            display: none;
+                        }
+                    }
+
+                    @media only screen and (max-width: 1200px) and (min-width: 993px) {
+                        padding-left: 30px;
+                    }
+
+                    @media only screen and (max-width: 992px) and (min-width: 300px) {
+                      
+                        text-align: left;
+
+                        font-size: 50px;
+                        padding-left: .075em;
+                    }
+                }
+
+                ul.box{
+                    max-width: 40%;
+                    width: 100%;
+                    margin-top: 45px;
+                    display: inline-block;
+                    vertical-align: top;
+                    float: left;
+
+                    @media only screen and (max-width: 992px) and (min-width: 300px) {
+                        max-width: 350px;
+                        width: 100%;
+                        margin: 45px auto 0;
+                        display: inline-block;
+                        float: none;
+                        padding-left: 70px;
+
+                    }
+                    @media only screen and (max-width: 450px) and (min-width: 300px) {
+                        padding-left: 30px;
+
+                    }
+
+                    @media only screen and (max-width: 360px) and (min-width: 300px) {
+                        padding-left: 0px;
+
+                    }
+                    li{
+                        display: inline-block;
+                        width: 50%;
+                        float: left;
+                        padding-left: 55px;
+                        margin-bottom: 22px;
+
+                        @media only screen and (max-width: 1799px) and (min-width: 1201px) {
+                            padding-left: 0px;
+                        }
+
+                        @media only screen and (max-width: 1200px) and (min-width: 993px) {
+                            padding-left: 30px;
+                        }
+
+                        @media only screen and (max-width: 992px) and (min-width: 300px) {
+                            padding-left: 0px;
+                            text-align: left;
+                         
+                        }
+
+                       
+
+
+                        p{
+                            color:  #000000;
+                            font: 16px $lt;
+                            margin-bottom: 5px;
+                            margin-top: 0;
+
+                        }
+                        span{
+                            display: block;
+                            width: 100%;
+                            position: relative;
+                            color:  #000000;
+                            font: 18px $md;
+
+                        }
+
+                    }
+                }
+
+                .tradingview-widget-container{
+                    float: left;
+                    max-width: 60%;
+                    width: 100%;
+                    margin-top: 45px;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    @media only screen and (max-width: 992px) and (min-width: 300px) {
+                        float: none;
+                        max-width: 650px;
+                        width: 100%;
+                        display: block;
+                        margin: 35px auto 0;
+                     
+                    }
+
+                }
+
+               
+            }
+
+            
+
+            .box__inform{
+                display: flex;
+
+                max-width: 450px;
+                width: 100%;
+
+                height: 100px;
+                margin: 0 auto;
+                margin-right: 0;
+
+                flex-direction:row;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: -110px;
+
+                @media only screen and (max-width: 1670px) and (min-width: 300px) {
+                    margin-top:0px;
+                    margin: 0 auto 0px;
+                    max-width: 550px;
+                }
+
+                
+
+                .bid{
+                    &:before{
+                        content: 'Bid';
+                        font: 16px $lt;
+                        color:  #000000;
+                        display: block;
+                        position: absolute;
+                        margin-top: -30px;
+
+                        
+                    }
+                }
+
+                .ask{
+                    &:before{
+                        content: 'Ask';
+                        font: 16px $lt;
+                        color:  #000000;
+                        display: block;
+                        position: absolute;
+                        margin-top: -30px;
+
+                        
+                    }
+                }
+
+
+
+                .red{
+
+                    color:  #e1182b;
+                    font: 18px $md;
+
+                }
+                .grin{
+                    color:  #29c300;
+                    font: 18px $md;
+                }
+                .spread{
+                    border-radius: 5px;
+                    background-color:  #ff0000;
+                    width: 48px;
+                    height: 25px;
+                    color: #fff;
+                    font: 18px $md;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:before{
+                        content: 'Spread';
+                        font: 16px $lt;
+                        color:  #000000;
+                        display: block;
+                        position: absolute;
+                        margin-top: -30px;
+
+                        
+                    }
+                }
+
+                .sell{
+                    border-radius: 5px;
+                    border: 2px solid #de4a4a;
+
+                    width: 60px;
+                    height: 36px;
+                    border-radius: 5px;
+
+                    color: #de4a4a;
+                    font: 13px $lt;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .buy{
+                    border-radius: 5px;
+                    border: 2px solid #29c300;
+                    font: 13px $lt;
+                    color: #29c300;
+
+                    width: 60px;
+                    height: 36px;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+            }
+
+            .button__yellow{
+                margin-top: 15px;
+                margin-left: 55px;
+            
+
+                @media only screen and (max-width: 1670px) and (min-width: 300px) {
+               
+                    margin: 0 auto 0;
+             
+                }
+            }
+            .menu__top {
+                padding-top: 20px;
+                text-align: center;
+            
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                  margin-bottom: 45px;
+                 
+                }
+
+              
+                /*
+
+                 
+                max-width: 1841px;
+                width: 100%;
+                margin: 0 auto;
+                z-index: 1;
+                position: relative;
+                text-align: center;
+
+                @media only screen and (max-width: 992px) and (min-width: 451px) {
+                    position: fixed;
+                    height: 80px;
+                    background: #000;
+                    z-index: 13;
+                    top:0;
+                    width: 100%;
+
+                   
+                    
+                }
+
+                @media only screen and (max-width: 450px) and (min-width: 300px) {
+                    position: fixed;
+                    height: 70px;
+                    background: #000;
+                    z-index: 13;
+                    top:0;
+                    width: 100%;
+
+                   
+                    
+                }
+                .logo {
+                    margin: 18px auto 0;
+                    @media only screen and (max-width: 992px) and (min-width: 601px) {
+                        margin: 5px;
+                        float: left;
+                    }
+
+                    @media only screen and (max-width: 600px) and (min-width: 451px) {
+                        margin: 10px;
+                        float: left;
+
+                        width: 180px;
+                    }
+
+                    @media only screen and (max-width: 450px) and (min-width: 300px) {
+                        margin: 15px 5px;
+                        float: left;
+
+                        width: 120px;
+                    }
+                }
+
+                */
+
+
+            }
+
+            .arrow__bottom {
+                position: absolute;
+                top: 445px;
+                left: 50%;
+                margin-left: -20px;
+                border-radius: 50%;
+                background-color: #fff;
+                width: 40px;
+                height: 40px;
+                z-index: 1;
+                font-size: 18px;
+                padding-top: 5px;
+                color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background: #7f7f7f;
+                }
+                @media only screen and (max-width: 992px) and (min-width: 300px) {
+                    bottom: -20px;
+                    top: inherit;
+                
+                }
+            }
+            h1 {
+                color: #ffffff;
+                font: 34px $md;
+                text-transform: uppercase;
+                letter-spacing: .01em;
+                margin-top: 215px;
+                padding-left: 10px;
+                line-height: 1.4em;
+                text-align: left;
+                @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                  br{
+                      display: none;
+                  }
+                }
+                @media only screen and (max-width: 992px) and (min-width: 601px) {
+                    margin: 0 auto;
+                    padding-left: 50px;
+
+                }
+                @media only screen and (max-width: 600px) and (min-width: 300px) {
+                 
+                    margin: 0 auto;
+                    padding-left: 40px;
+
+                    font-size: 17px;
+                }
+            }
+
+  
+            h2 {
+                color: #ffffff;
+                font: 30px $md;
+                text-transform: uppercase;
+                letter-spacing: .009em;
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+        }
+
+       
+        
+        footer {
+            background-color: #222222;
+            min-height:361px;
+            padding: 41px 0 15px;
+
+            p {
+                color: #E0E0E0;
+                font: 14px $lt;
+                margin-top: 0;
+                letter-spacing: .032em;
+                line-height: 1.45em;
+
+                margin-bottom: 18px;
+                @media only screen and (max-width: 600px) and (min-width: 300px) {
+                    font-size: 14px;
+                }
+            }
+
+
+            a {
+                color: #E0E0E0;
+                font: 16.08px $lt;
+                &:hover {
+                    color: #967327;
+                }
+            }
+
+
+        }

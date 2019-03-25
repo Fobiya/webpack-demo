@@ -1,0 +1,21 @@
+{
+  "name": "Sabadish",
+  "description": "First Gulp Project",
+  "main": "",
+  "authors": [
+    "Artem Kalinichenko <artem21kalinichenko@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/billybonz1/sabadish",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "lightslider": "^1.1.5"
+  }
+}
