@@ -1,0 +1,5 @@
+body{direction:rtl}.offer .bonus-offer{margin:0 0 0 auto}.price-widgets .widget-column:not(:last-child):after{right:auto;left:-1px}.signup-form{margin-right:0;margin-left:60px;/* right:auto; *//* left:15px; */margin-left: -200px;}.signup-form.active{margin-left:0;margin-left: -400px;}.intl-tel-input.allow-dropdown .selected-flag .iti-arrow,.intl-tel-input.separate-dial-code .selected-flag .iti-arrow{right:auto;left:6px}.intl-tel-input.allow-dropdown .selected-flag .iti-flag,.intl-tel-input.separate-dial-code .selected-flag .iti-flag{margin-left:auto;margin-right:auto;left:60%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.intl-tel-input .country-list .country{text-align:right}.intl-tel-input .country-list .country .flag-box{margin-left:8px}.popup{direction:rtl}.section-actions .actions{right:auto;left:0}
+.nh-language-switcher .js-lang-select .lang-item .name {
+    padding-left: 0;
+    margin-right: 15px;
+}
