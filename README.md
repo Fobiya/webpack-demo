@@ -1,2 +1,2 @@
-# webpack-demo
+# wtranslations PHP SEEE
 test
